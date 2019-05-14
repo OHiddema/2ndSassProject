@@ -1,0 +1,12 @@
+// Create a map
+$colors: (
+  blue: #0000FF,
+  lblue: rgb(100, 100, 255),
+  llblue: rgb(200, 200, 255),
+  dblue: rgb(0, 0, 155),
+  ddblue: rgb(0, 0, 55)
+);
+
+body {
+  background-color: map-get($colors, blue);
+}
